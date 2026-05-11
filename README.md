@@ -8,7 +8,7 @@ Stencil is also great for building entire apps. For that, use the [stencil-app-s
 
 ## Demo
 
-<video src="./Booking%20Plugin.webm" controls width="900"></video>
+[Watch demo video](./Booking%20Plugin.webm)
 
 ## Stencil
 
