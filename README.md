@@ -74,3 +74,45 @@ Instead, use a prefix that fits your company or any name for a group of related 
 - Run `npm install my-component --save`
 - Add an import to the npm packages `import my-component;`
 - Then you can use the element anywhere in your template, JSX, html etc
+
+## GitHub SSH Setup (SeifESlimene)
+
+If `git push` fails with a permission error for `SeifESlimene/booking_system_plugin_clone`, configure SSH to use the correct GitHub account key.
+
+### 1) Add SSH host alias in config
+
+Create or edit `~/.ssh/config`:
+
+```sshconfig
+Host github-seifeslimene
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_personal
+  IdentitiesOnly yes
+```
+
+### 2) Set correct permissions
+
+```bash
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/config
+```
+
+### 3) Test SSH identity
+
+```bash
+ssh -T git@github-seifeslimene
+```
+
+Expected output:
+
+```text
+Hi seifeslimene! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+### 4) Point repo remote to alias and push
+
+```bash
+git remote set-url origin git@github-seifeslimene:SeifESlimene/booking_system_plugin_clone.git
+git push
+```
