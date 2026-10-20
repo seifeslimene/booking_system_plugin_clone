@@ -2,11 +2,14 @@
 
 <!-- Auto Generated Below -->
 
+
 ## Properties
 
-| Property     | Attribute     | Description | Type  | Default     |
-| ------------ | ------------- | ----------- | ----- | ----------- |
-| `facilityId` | `facility-id` |             | `any` | `undefined` |
+| Property     | Attribute     | Description | Type     | Default     |
+| ------------ | ------------- | ----------- | -------- | ----------- |
+| `facilityId` | `facility-id` |             | `any`    | `undefined` |
+| `token_api`  | `token_api`   |             | `string` | `undefined` |
+
 
 ## Events
 
@@ -14,18 +17,18 @@
 | ------------ | ----------- | ----------------------- |
 | `stepChange` |             | `CustomEvent<StepData>` |
 
+
 ## Dependencies
 
 ### Used by
 
-- [my-modal](../my-modal)
+ - [my-modal](../my-modal)
 
 ### Depends on
 
 - [my-loader](../my-loader)
 
 ### Graph
-
 ```mermaid
 graph TD;
   my-calendar --> my-loader

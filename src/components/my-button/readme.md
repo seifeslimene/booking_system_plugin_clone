@@ -2,20 +2,21 @@
 
 <!-- Auto Generated Below -->
 
+
 ## Properties
 
 | Property         | Attribute         | Description | Type      | Default |
 | ---------------- | ----------------- | ----------- | --------- | ------- |
 | `buttonExpanded` | `button-expanded` |             | `boolean` | `true`  |
 
+
 ## Dependencies
 
 ### Used by
 
-- [my-component](../my-component)
+ - [my-component](../my-component)
 
 ### Graph
-
 ```mermaid
 graph TD;
   my-component --> my-button

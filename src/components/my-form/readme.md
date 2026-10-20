@@ -2,11 +2,13 @@
 
 <!-- Auto Generated Below -->
 
+
 ## Properties
 
 | Property       | Attribute       | Description | Type  | Default     |
 | -------------- | --------------- | ----------- | ----- | ----------- |
 | `selectedTime` | `selected-time` |             | `any` | `undefined` |
+
 
 ## Events
 
@@ -14,14 +16,14 @@
 | ------------ | ----------- | ----------------------- |
 | `stepChange` |             | `CustomEvent<StepData>` |
 
+
 ## Dependencies
 
 ### Used by
 
-- [my-modal](../my-modal)
+ - [my-modal](../my-modal)
 
 ### Graph
-
 ```mermaid
 graph TD;
   my-modal --> my-form

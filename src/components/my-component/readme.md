@@ -2,6 +2,14 @@
 
 <!-- Auto Generated Below -->
 
+
+## Properties
+
+| Property | Attribute | Description | Type     | Default     |
+| -------- | --------- | ----------- | -------- | ----------- |
+| `api`    | `api`     |             | `string` | `undefined` |
+
+
 ## Dependencies
 
 ### Depends on
@@ -10,7 +18,6 @@
 - [my-button](../my-button)
 
 ### Graph
-
 ```mermaid
 graph TD;
   my-component --> my-modal

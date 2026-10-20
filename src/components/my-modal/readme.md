@@ -2,11 +2,19 @@
 
 <!-- Auto Generated Below -->
 
+
+## Properties
+
+| Property | Attribute | Description | Type     | Default     |
+| -------- | --------- | ----------- | -------- | ----------- |
+| `token`  | `token`   |             | `string` | `undefined` |
+
+
 ## Dependencies
 
 ### Used by
 
-- [my-component](../my-component)
+ - [my-component](../my-component)
 
 ### Depends on
 
@@ -17,7 +25,6 @@
 - [my-confirm](../my-confirm)
 
 ### Graph
-
 ```mermaid
 graph TD;
   my-modal --> my-service

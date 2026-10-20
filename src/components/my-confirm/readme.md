@@ -2,24 +2,26 @@
 
 <!-- Auto Generated Below -->
 
+
 ## Properties
 
-| Property    | Attribute    | Description | Type  | Default     |
-| ----------- | ------------ | ----------- | ----- | ----------- |
-| `modalData` | `modal-data` |             | `any` | `undefined` |
+| Property    | Attribute    | Description | Type     | Default     |
+| ----------- | ------------ | ----------- | -------- | ----------- |
+| `modalData` | `modal-data` |             | `any`    | `undefined` |
+| `token_api` | `token_api`  |             | `string` | `undefined` |
+
 
 ## Dependencies
 
 ### Used by
 
-- [my-modal](../my-modal)
+ - [my-modal](../my-modal)
 
 ### Depends on
 
 - [my-loader](../my-loader)
 
 ### Graph
-
 ```mermaid
 graph TD;
   my-confirm --> my-loader

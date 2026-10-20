@@ -2,24 +2,32 @@
 
 <!-- Auto Generated Below -->
 
+
+## Properties
+
+| Property    | Attribute   | Description | Type     | Default     |
+| ----------- | ----------- | ----------- | -------- | ----------- |
+| `token_api` | `token_api` |             | `string` | `undefined` |
+
+
 ## Events
 
 | Event        | Description | Type                    |
 | ------------ | ----------- | ----------------------- |
 | `stepChange` |             | `CustomEvent<StepData>` |
 
+
 ## Dependencies
 
 ### Used by
 
-- [my-modal](../my-modal)
+ - [my-modal](../my-modal)
 
 ### Depends on
 
 - [my-loader](../my-loader)
 
 ### Graph
-
 ```mermaid
 graph TD;
   my-facilities --> my-loader
